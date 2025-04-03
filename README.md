@@ -84,14 +84,20 @@ Employee-Management-System/
 │   │   │   ├── EmployeeDto.java
 │   │   ├── entity/
 │   │   │   ├── Employee.java
+│   │   ├── exception/
+│   │   │   ├── ResourceNotFound.java
+│   │   ├── mapper/
+│   │   │   ├── EmployeeMapper.java
 │   ├── src/main/resources/
 │   │   ├── application.properties
 │── frontend/
 │   ├── src/
 │   │   ├── components/
-│   │   │   ├── ListEmployeeComp.js
-│   │   │   ├── EmployeeComponent.js
-│   │   ├── App.js
+│   │   │   ├── ListEmployeeComp.jsx
+│   │   │   ├── EmployeeComponent.jsx
+│   │   │   ├── HeaderComponent.jsx
+│   │   │   ├── FooterComponent.jsx
+│   │   ├── App.jsx
 │── README.md
 ```
 
@@ -100,6 +106,5 @@ Employee-Management-System/
 2. Run the frontend using `npm start`.
 3. Open the browser and navigate to `http://localhost:3000`.
 
-## License
-This project is licensed under the MIT License.
+
 
